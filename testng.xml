@@ -1,10 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="C:/Users/Manjeet Sharma/IdeaProjects/Epam_CA_4/src/test/java/org/example/AppTest.java"><classes><class name="org.example.AppTest">
-        <methods><include name="testDropdown"/>
-            <include name="testCheckboxes"/>
-            <include name="testRadioButtons"/>
-        </methods></class></classes>
+    <test verbose="2" preserve-order="true" name="Test1">
+        <classes><class name="org.example.Loginwithout_Cred_Test">
+            <methods><include name="Test"/>
+            </methods>
+        </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Test2">
+        <classes><class name="org.example.Loginwith_Incorrectcred_Test">
+            <methods><include name="test"/>
+            </methods>
+        </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Test3">
+        <classes><class name="org.example.Loginwith_CredTest">
+            <methods><include name="test"/>
+            </methods>
+        </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Test4">
+        <classes><class name="org.example.Add_cart_wire_Test">
+            <methods><include name="test"/>
+            </methods>
+        </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Test5">
+        <classes><class name="org.example.Add_cart_phone_Test">
+            <methods><include name="test"/>
+            </methods>
+        </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Test6">
+        <classes><class name="org.example.Watchlist_Items_Test">
+            <methods><include name="test"/>
+            </methods>
+        </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Test7">
+        <classes><class name="org.example.Remove_cart_Test">
+            <methods><include name="test"/>
+            </methods>
+        </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Test8">
+        <classes><class name="org.example.Username_Change_Test">
+            <methods><include name="test"/>
+            </methods>
+        </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Test9">
+        <classes><class name="org.example.Address_change_Test">
+            <methods><include name="test"/>
+            </methods>
+        </class>
+        </classes>
     </test>
 </suite>
