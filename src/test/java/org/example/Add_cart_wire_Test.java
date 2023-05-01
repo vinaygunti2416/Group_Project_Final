@@ -11,24 +11,17 @@ public class Add_cart_wire_Test {
     WebDriver driver;
     public void test() throws InterruptedException
     {
-//        WebDriverManager.chromedriver().setup();
-//        driver = new ChromeDriver();
-//        Add_Cart_wire obj = new Add_Cart_wire(driver);
-//        driver.get("https://www.ebay.com/signin/");
-//        driver.manage().window().maximize();
-//        Thread.sleep(50000);
-//        obj.login("sharmaboymanjeet123@gmail.com","qpalzm@1M");
-//        obj.addcarts();
-//        obj.selectGreen();
-//        obj.selectLength();
-        Thread.sleep(8000);
-        Thread.sleep(8000);
-        Thread.sleep(8000);
-        Thread.sleep(8000);
-        Thread.sleep(8000);
+        WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver();
+        Add_Cart_wire obj = new Add_Cart_wire(driver);
+        driver.get("https://www.ebay.com/signin/");
+        driver.manage().window().maximize();
+        Thread.sleep(50000);
+        obj.login("sharmaboymanjeet123@gmail.com","qpalzm@1MM");
+        obj.addcarts();
+        obj.selectGreen();
+        obj.selectLength();
 
-
-        System.out.println("hii");
 
     }
 }

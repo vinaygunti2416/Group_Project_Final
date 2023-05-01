@@ -11,16 +11,14 @@ public class Username_Change_Test {
     WebDriver driver;
     public void test() throws InterruptedException
     {
-//        WebDriverManager.chromedriver().setup();
-//        driver = new ChromeDriver();
-//        Username_Change obj = new Username_Change(driver);
-//        driver.get("https://www.ebay.com/signin/");
-//        driver.manage().window().maximize();
-//        Thread.sleep(10000);
-//        obj.login("sharmaboymanjeet123@gmail.com","qpalzm@1M");
-//        obj.usernamechange();
-        Thread.sleep(8000);
-        Thread.sleep(8000);
-        System.out.println("hii");
+        WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver();
+        Username_Change obj = new Username_Change(driver);
+        driver.get("https://www.ebay.com/signin/");
+        driver.manage().window().maximize();
+        Thread.sleep(10000);
+        obj.login("sharmaboymanjeet123@gmail.com","qpalzm@1MM");
+        obj.usernamechange();
+
     }
 }
